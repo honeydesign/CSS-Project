@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.nav {
+    position: fixed;
+    background-color: #005CB4;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    gap: 30px;
+    margin-right: 100px;
+    margin-right: 400px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    border-right: 50px;
+}
+
+.nav .button {
+    background-color: #005CB4;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    border: 4px solid #FFFFFF;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav .button:hover {
+    color: #005CB4;
+    background-color: white
+}
+
+li a:hover {
+    color: #D9D9D9;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box .cup {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.box .pepsi-image {
+    margin-top: 8rem;
+}
+
+.box .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 100px;
+    width: 500px;
+    height: 600px;
+    margin-top: 128px;
+}
+
+.box .content .intro {
+    color: #005CB4;
+    font-size: 60px;
+}
+
+.box .content .nitro {
+    color: #005CB4;
+    font-size: 60px;
+}
+
+.box .content .pepsi {
+    color: #005CB4;
+    font-size: 60px;
+}
+
+.box .content .smooth {
+    color: #005CB4;
+    font-size: 32px;
+}
+
+.box .content .introbutton {
+    border: 1px solid #005CB4;
+    border-radius: 16px;
+    padding: 9.6px 32px;
+    background-color: white;
+    color: #005CB4;
+}
+
+.box .content .introbutton:hover {
+    background-color: #005CB4;
+    color: white;
+}
+
+.blackscreen {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blackscreen .sugar {
+    width: 800px;
+    height: 216px;
+    object-fit: cover;
+}
+
+.blackscreen .zerosugar {
+    height: 500px;
+    width: 300px;
+    margin-top: 64px;
+}
+
+.blackscreen .videoone {
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainbackground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f4cc6;
+    width: 30%;
+    height: 80vh;
+    row-gap: 52px;
+}
+
+.backgroundone {
+    display: flex;
+    flex-direction: column;
+}
+
+.backgroundtwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.subinfo {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 11px 3.2px;
+    background-color: #0f4cc6;
+}
+
+.subinfotwo {
+    color: white;
+    background-color: #0f4cc6;
+    padding: 11px 3.2px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.background .pepsiyellow {
+    width: 100%;
+    height: 80vh;
+}
+
+.background .mainbackgroundtwo {
+    width: 70%;
+}
+
+.pepsimango {
+    background: url(/images/pepsi\ mango.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
