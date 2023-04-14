@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.frameone {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E5CFAB;
+    height: 200px;
+    width: 700px;
+    border-radius: 20px;
+    border: 4px dotted black;
+}
+
+.frametwo {
+    background-color: green;
+    height: 300px;
+    width: 700px;
+}
+
+.containerone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.framethree {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    border-radius: 30px;
+    color: white;
+    border-radius: 16px;
+    height: 380px;
+    width: 400px;
+    background-color: black;
+}
+
+.display {
+    background-color: black;
+    border: solid white 5px;
+    color: white;
+    border-radius: 5px;
+    width: 95%;
+    height: 25%;
+}
+
+.sectionone {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectiontwo {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectionthree {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectionfour {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button:hover {
+    color: yellow;
+}
