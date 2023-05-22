@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(150px, auto);
+    grid-template-areas: 'one two three four' 'one five six seven';
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.one {
+    grid-area: one;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aqua;
+}
+
+.two {
+    grid-area: two;
+    background-color: aquamarine;
+}
+
+.three {
+    grid-area: three;
+    background-color: blue;
+}
+
+.four {
+    grid-area: four;
+    background-color: blueviolet;
+}
+
+.five {
+    grid-area: five;
+    background-color: black;
+}
+
+.six {
+    grid-area: six;
+    background-color: burlywood;
+}
+
+.seven {
+    grid-area: seven;
+    background-color: cadetblue;
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(150px, auto);
+        grid-template-areas: 'one' 'two' 'three' 'four' 'five' 'six' 'seven';
+    }
+}
+
+@media (min-width:500px)and (max-width:1023px) {
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: minmax(150px, auto);
+        grid-template-areas: 'one two' 'one three' 'one four' 'one five' 'one six' 'one seven';
+    }
+    .one {
+        grid-area: one;
+        grid-row-start: 1;
+        grid-row-end: 7;
+        background-color: aqua;
+    }
+}

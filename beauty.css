@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.sectionone {
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerone {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 40px;
+}
+
+.textone {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.texttwo {
+    font-size: 100px;
+    font-weight: 300;
+    line-height: .5em;
+    font-style: normal;
+}
+
+p {
+    font-size: 16px;
+    margin: 40px 0 0;
+    max-width: 383px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.buttonone {
+    background-color: black;
+    color: white;
+    padding: 24px 43px;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sectiontwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.imgcontainerone {
+    background-color: rgb(255, 245, 203);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.tattoo {
+    position: absolute;
+    left: 16px;
+    top: 40px;
+    writing-mode: vertical-rl;
+}
+
+.one {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .3);
+}
+
+.two {
+    font-size: 27px;
+    font-weight: 700;
+    color: #000;
+}
+
+.imgcontainertwo {
+    background-color: rgb(255, 206, 236);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.makeup {
+    position: absolute;
+    left: 16px;
+    top: 40px;
+    writing-mode: vertical-rl;
+}
+
+.imgcontainerthree {
+    background-color: rgb(152, 150, 240);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.nails {
+    position: absolute;
+    left: 16px;
+    top: 40px;
+    writing-mode: vertical-rl;
+}
+
+.sectionthree {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.girl {
+    background-color: #8ed1fc;
+    width: 600px;
+}
+
+.containertwo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 50px;
+}
+
+.story {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+}
+
+.salon {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1em;
+}
+
+.note {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttontwo {
+    background-color: black;
+    color: white;
+    padding: 24px 43px;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sectionfour {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.redgirl {
+    background-color: rgb(255, 203, 112);
+    width: 761px;
+}
+
+.gridcontainer {
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px 200px;
+    grid-template-areas: 'f f t t' 's s p p' 'n n n n';
+    gap: 10px;
+}
+
+.buttonthree {
+    grid-area: f;
+    background-color: white;
+    border: 3px #F5F5F5 solid;
+    width: 300px;
+    padding: 30px;
+}
+
+.buttonfour {
+    grid-area: t;
+    background-color: white;
+    border: 3px #F5F5F5 solid;
+    width: 300px;
+    padding: 30px;
+}
+
+.buttonfive {
+    grid-area: s;
+    background-color: white;
+    border: 3px #F5F5F5 solid;
+    width: 300px;
+    padding: 30px;
+}
+
+.buttonsix {
+    grid-area: p;
+    background-color: white;
+    border: 3px #F5F5F5 solid;
+    width: 300px;
+    padding: 30px;
+}
+
+.buttonseven {
+    grid-area: n;
+    background-color: white;
+    border: 3px #F5F5F5 solid;
+    width: 620px;
+    padding: 30px;
+}
+
+.box {
+    background-image: url('/beautyimages/beauty\ image\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
